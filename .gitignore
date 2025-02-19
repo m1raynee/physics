@@ -1,0 +1,6 @@
+# LaTeX
+*.toc
+*.synctex.gz
+*.log
+*.aux
+*.pdf

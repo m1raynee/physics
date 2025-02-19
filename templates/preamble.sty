@@ -1,4 +1,4 @@
-\ProvidesPackage{../templates/preamble}
+\ProvidesPackage{../../templates/preamble}
 
 \usepackage[english,russian]{babel}
 \usepackage{graphicx}
@@ -9,15 +9,15 @@
 
 % Margins
 \usepackage[
-    top=20mm,
-    bottom=20mm,
-    left=30mm,
+    top=10mm,
+    bottom=10mm,
+    left=10mm,
     right=10mm
 ]{geometry}
 
 \usepackage{setspace}
 \setlength{\parindent}{15mm}  % Paragraph indent
-\setstretch{1.5}  % Line height
+\setstretch{1}  % Line height
 
 \usepackage{titlesec}
 \titleformat{\section}[hang]{\normalfont\bfseries}{\thesection}{}{}
@@ -28,7 +28,8 @@
 \DeclareCaptionLabelSeparator{emdash}{ --- }
 \captionsetup[figure]{name={Рисунок},labelsep=emdash}
 
-\newcommand{\department}{САПР}
-\newcommand{\discipline}{Информационные технологии}
-\newcommand{\teacher}{Копец Е. Е.}
+\pagenumbering{gobble}
+
+\newcommand{\teacher}{Дедык А. И.}
+\newcommand{\tteacher}{Дедык Антонина Ивановна}
 \newcommand{\yyear}{2025}
