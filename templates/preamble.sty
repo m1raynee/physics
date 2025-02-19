@@ -16,12 +16,12 @@
 ]{geometry}
 
 \usepackage{setspace}
-\setlength{\parindent}{15mm}  % Paragraph indent
-\setstretch{1}  % Line height
+\setlength{\parindent}{0pt}  % Paragraph indent
+\setstretch{1.2}  % Line height
 
 \usepackage{titlesec}
-\titleformat{\section}[hang]{\normalfont\bfseries}{\thesection}{}{}
-\titlespacing{\section}{15mm}{0pt}{0pt}
+\titleformat{\section}[hang]{\normalfont\bfseries\centering\arraybackslash}{\thesection}{}{}
+\titlespacing{\section}{0pt}{0pt}{0pt}
 
 \usepackage{caption}
 \usepackage{subcaption}
@@ -29,6 +29,8 @@
 \captionsetup[figure]{name={Рисунок},labelsep=emdash}
 
 \pagenumbering{gobble}
+
+\usepackage{floatflt}
 
 \newcommand{\teacher}{Дедык А. И.}
 \newcommand{\tteacher}{Дедык Антонина Ивановна}
